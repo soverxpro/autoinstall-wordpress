@@ -124,12 +124,12 @@ max_execution_time = 300
    git clone https://github.com/soverxpro/autoinstall-wordpress.git
    cd autoinstall-wordpress
    ```
-2. Настройте файл `.env`, указав параметры базы данных.  
+2. Настройте файл `.env`, указав параметры базы данных (Это только для Docker).  
 3. Если вы используете Docker, запустите:
    ```bash
    docker-compose up -d
    ```
-4. Если вы хотите установить LAMP вручную, выполните скрипт:
+4. Если вы хотите установить LAMP вручную, выполните скрипт (Если хотите поменять данные БД, меняйте в скрипте!):
    ```bash
    sudo ./install.sh
    ```
