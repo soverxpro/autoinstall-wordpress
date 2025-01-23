@@ -121,8 +121,8 @@ max_execution_time = 300
 ### Как использовать проект?
 1. Склонируйте репозиторий:
    ```bash
-   git clone <URL>
-   cd <папка_проекта>
+   git clone https://github.com/soverxpro/autoinstall-wordpress.git
+   cd autoinstall-wordpress
    ```
 2. Настройте файл `.env`, указав параметры базы данных.  
 3. Если вы используете Docker, запустите:
